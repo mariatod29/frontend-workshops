@@ -1,0 +1,40 @@
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 500px;
+  width: 50%;
+  gap: 20px;
+  border-bottom: 2px solid black;
+}
+
+.bar {
+  flex: 1;
+  background-color: #fff4ec;
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pessimistic {
+  background-color: #f05b28;
+  height: 350px;
+}
+
+.neutral {
+  background-color: #f4b29b;
+  height: 400px;
+}
+
+.optimistic {
+  background-color: #fff4ec;
+  height: 450px;
+}

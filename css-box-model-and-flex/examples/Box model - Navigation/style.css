@@ -1,0 +1,26 @@
+.navigation-box {
+  display: flex;
+  border: 2px solid palevioletred;
+  border-radius: 6px;
+  background-color: pink;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  display: flex;
+  padding: 0;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.navigation-item {
+  color: white;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}

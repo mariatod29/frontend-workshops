@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.simple-grid {
+    display: block;
+    border: 2px solid black;
+    border: 5px;
+    background-color: lightgray;
+    padding: 50px;
+    margin: auto;
+}
+.box {
+    display: inline-block;
+    background-color: lightblue;
+    border: 3px solid rgb(47, 144, 177);
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    margin: 3px;
+    padding: 50px;
+}
